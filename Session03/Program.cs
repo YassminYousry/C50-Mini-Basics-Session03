@@ -187,18 +187,18 @@ namespace Session03
             #endregion
 
             #region Q18
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            void PrintFirstBook()
-            {
-                if (books.Length == 0)
-                {
-                    return;
-                }
-                Console.WriteLine($"{books[0]}");
-            }
+            //void PrintFirstBook()
+            //{
+            //    if (books.Length == 0)
+            //    {
+            //        return;
+            //    }
+            //    Console.WriteLine($"{books[0]}");
+            //}
 
-            PrintFirstBook();
+            //PrintFirstBook();
             #endregion
 
         }
