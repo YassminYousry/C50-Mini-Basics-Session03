@@ -127,15 +127,26 @@ namespace Session03
             #endregion
 
             #region Q13
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            int i = 0;
+            //int i = 0;
 
-            while (i < books.Length)
+            //while (i < books.Length)
+            //{
+            //    Console.WriteLine($"{i + 1}. {books[i]}");
+            //    i++;
+            //}
+            #endregion
+
+            #region Q14
+            int count = 0;
+
+            do
             {
-                Console.WriteLine($"{i + 1}. {books[i]}");
-                i++;
+                Console.WriteLine("Checking book...");
+                count++;
             }
+            while (count < 3);
             #endregion
         }
     }
