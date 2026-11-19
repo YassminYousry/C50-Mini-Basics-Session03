@@ -64,15 +64,29 @@ namespace Session03
             #endregion
 
             #region Q08
-            int pages = 464;
+            //int pages = 464;
 
-            if (pages > 300)
+            //if (pages > 300)
+            //{
+            //    Console.WriteLine("Long Book");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Short Book");
+            //}
+            #endregion
+
+            #region Q09
+            int pages = 464;
+            bool isAvailable = true;
+
+            if (pages > 300 && isAvailable)
             {
-                Console.WriteLine("Long Book");
+                Console.WriteLine("You can borrow this book");
             }
             else
             {
-                Console.WriteLine("Short Book");
+                Console.WriteLine("You cannot borrow this book");
             }
             #endregion
 
