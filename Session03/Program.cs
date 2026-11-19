@@ -1,4 +1,6 @@
-﻿namespace Session03
+﻿using System.Text;
+
+namespace Session03
 {
     internal class Program
     {
@@ -13,10 +15,19 @@
             #endregion
 
             #region Q02
-            string var01 = "Clean Code";
-            string var02 = "Clean Code";
+            //string var01 = "Clean Code";
+            //string var02 = "Clean Code";
 
-            Console.WriteLine($"ReferenceEquals: {ReferenceEquals(var01, var02)}");
+            //Console.WriteLine($"ReferenceEquals: {ReferenceEquals(var01, var02)}");
+            #endregion
+
+            #region Q03
+            StringBuilder sbText = new StringBuilder();
+
+            sbText.Append("Book List");
+            sbText.Append(" - Updated");
+
+            Console.WriteLine($"{sbText}");
             #endregion
 
         }
