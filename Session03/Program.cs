@@ -29,11 +29,20 @@ namespace Session03
 
             //Console.WriteLine($"{sbText}");
             #endregion
-            sbText.Replace("Book List", "Library");
 
-            Console.WriteLine($"{sbText}");
             #region Q04
+            //sbText.Replace("Book List", "Library");
 
+            //Console.WriteLine($"{sbText}");
+            #endregion
+
+            #region Q05
+            string title = "Clean Code";
+            int pages = 464;
+
+            string sentence = "Book: " + title + ", Pages: " + pages;
+
+            Console.WriteLine($"{sentence}");
             #endregion
 
         }
