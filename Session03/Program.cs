@@ -91,22 +91,30 @@ namespace Session03
             #endregion
 
             #region Q10
-            string title = "Refactoring";
+            //string title = "Refactoring";
 
-            switch (title)
-            {
-                case "Clean Code":
-                    Console.WriteLine("Great choice!");
-                    break;
+            //switch (title)
+            //{
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice!");
+            //        break;
 
-                case "Refactoring":
-                    Console.WriteLine("Nice pick!");
-                    break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick!");
+            //        break;
 
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+            #endregion
+
+            #region Q11
+            int pages = 464;
+
+            string sizeLabel = (pages > 300) ? "Long Book" : "Short Book";
+
+            Console.WriteLine($"{sizeLabel}");
             #endregion
 
         }
