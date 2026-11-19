@@ -22,12 +22,18 @@ namespace Session03
             #endregion
 
             #region Q03
-            StringBuilder sbText = new StringBuilder();
+            //StringBuilder sbText = new StringBuilder();
 
-            sbText.Append("Book List");
-            sbText.Append(" - Updated");
+            //sbText.Append("Book List");
+            //sbText.Append(" - Updated");
+
+            //Console.WriteLine($"{sbText}");
+            #endregion
+            sbText.Replace("Book List", "Library");
 
             Console.WriteLine($"{sbText}");
+            #region Q04
+
             #endregion
 
         }
