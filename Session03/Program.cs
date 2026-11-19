@@ -55,12 +55,25 @@ namespace Session03
             #endregion
 
             #region Q07
-            string title = "Clean Code";
+            //string title = "Clean Code";
+            //int pages = 464;
+
+            //string sentence = string.Format("Book: {0}, Pages: {1}", title, pages);
+
+            //Console.WriteLine($"{sentence}");
+            #endregion
+
+            #region Q08
             int pages = 464;
 
-            string sentence = string.Format("Book: {0}, Pages: {1}", title, pages);
-
-            Console.WriteLine($"{sentence}");
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
             #endregion
 
         }
