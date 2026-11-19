@@ -173,17 +173,32 @@ namespace Session03
             #endregion
 
             #region Q17
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //foreach (string book in books)
+            //{
+            //    if (book == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+
+            //    Console.WriteLine($"{book}");
+            //}
+            #endregion
+
+            #region Q18
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            foreach (string book in books)
+            void PrintFirstBook()
             {
-                if (book == "The Pragmatic Programmer")
+                if (books.Length == 0)
                 {
-                    continue;
+                    return;
                 }
-
-                Console.WriteLine($"{book}");
+                Console.WriteLine($"{books[0]}");
             }
+
+            PrintFirstBook();
             #endregion
 
         }
