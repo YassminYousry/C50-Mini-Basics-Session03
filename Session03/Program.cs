@@ -77,16 +77,35 @@ namespace Session03
             #endregion
 
             #region Q09
-            int pages = 464;
-            bool isAvailable = true;
+            //int pages = 464;
+            //bool isAvailable = true;
 
-            if (pages > 300 && isAvailable)
+            //if (pages > 300 && isAvailable)
+            //{
+            //    Console.WriteLine("You can borrow this book");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You cannot borrow this book");
+            //}
+            #endregion
+
+            #region Q10
+            string title = "Refactoring";
+
+            switch (title)
             {
-                Console.WriteLine("You can borrow this book");
-            }
-            else
-            {
-                Console.WriteLine("You cannot borrow this book");
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
             }
             #endregion
 
