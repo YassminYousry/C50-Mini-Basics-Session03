@@ -46,10 +46,19 @@ namespace Session03
             #endregion
 
             #region Q06
+            //string title = "Clean Code";
+            //int pages = 464;
+
+            //string sentence = $"Book: {title}, Pages: {pages}";
+
+            //Console.WriteLine($"{sentence}");
+            #endregion
+
+            #region Q07
             string title = "Clean Code";
             int pages = 464;
 
-            string sentence = $"Book: {title}, Pages: {pages}";
+            string sentence = string.Format("Book: {0}, Pages: {1}", title, pages);
 
             Console.WriteLine($"{sentence}");
             #endregion
